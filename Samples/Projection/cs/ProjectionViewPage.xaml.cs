@@ -34,6 +34,8 @@ namespace SDKSample
         public ProjectionViewPage()
         {
             this.InitializeComponent();
+
+            ApplicationView.GetForCurrentView().Title = "Projected View";
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
